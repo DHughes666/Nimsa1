@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles go here */
+  </style>
+</head>
+
+<body class="bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white px-6 py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-xl font-bold">Restaurant Name</a>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:text-gray-400">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-400">About</a></li>
+        <li><a href="#menu" class="hover:text-gray-400">Menu</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gray-900 text-white py-20">
+    <div class="container mx-auto flex flex-col items-center">
+      <h1 class="text-4xl font-bold mb-6">Welcome to Restaurant Name</h1>
+      <p class="text-lg text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla mi ut metus rhoncus, ut
+        consequat elit faucibus. Nullam lacinia, mauris vel lobortis consequat, lectus metus facilisis purus, at
+        ullamcorper orci lectus et justo.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6">About Us</h2>
+      <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan dolor lectus, ac volutpat neque
+        accumsan a. Curabitur vitae risus arcu. Nulla facilisi. Nunc ultricies turpis ac nulla scelerisque, non
+        fermentum tortor efficitur. Fusce viverra tincidunt risus id convallis. Sed tincidunt elit in erat semper,
+        id pellentesque turpis consectetur. Mauris bibendum ex at justo volutpat convallis. Nam accumsan elit in
+        massa gravida, id dictum sapien vestibulum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan dolor lectus, ac volutpat neque accumsan a.
+        Curabitur vitae risus arcu. Nulla facilisi. Nunc ultricies turpis ac nulla scelerisque, non fermentum tortor
+        efficitur.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-20 bg-gray-100">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Our Menu</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold mb-2">Item 1</h3>
+          <p class="text-gray-600">Description of item 1 goes here.</p>
+          <span class="text-lg font-bold mt-4">$10</span>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold mb-2">Item 2</h3>
+          <p class="text-gray-600">Description of item 2 goes here.</p>
+          <span class="text-lg font-bold mt-4">$12</span>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold mb-2">Item 3</h3>
+          <p class="text-gray-600">Description of item 3 goes here.</p>
+          <span class="text-lg font-bold mt-4">$15</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+      <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan dolor lectus, ac volutpat neque
+        accumsan a.</p>
+      <form class="max-w-md mx-auto">
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+          <input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+          <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+          <textarea id="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" rows="6"></textarea>
+        </div>
+        <div class="flex justify-center">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white px-6 py-4">
+    <div class="container mx-auto flex justify-center">
+      <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
